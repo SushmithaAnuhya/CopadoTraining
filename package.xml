@@ -4,5 +4,9 @@
         <members>Opportunity.StageName</members>
         <name>CustomField</name>
     </types>
+    <types>
+        <members>OpportunityStage</members>
+        <name>StandardValueSet</name>
+    </types>
     <version>55.0</version>
 </Package>
