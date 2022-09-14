@@ -10,6 +10,8 @@
     </types>
     <types>
         <members>Admin</members>
+        <members>SolutionManager</members>
+        <members>Standard</members>
         <name>Profile</name>
     </types>
     <version>55.0</version>
