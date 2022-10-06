@@ -7765,6 +7765,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     <listViews>
         <fullName>copado__All</fullName>
         <columns>NAME</columns>
+        <columns>copado__Environment__c</columns>
         <columns>RECORDTYPE</columns>
         <columns>copado__User_Story_Title__c</columns>
         <columns>copado__Status__c</columns>
