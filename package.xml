@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Contact.AccountId</members>
-        <name>CustomField</name>
+        <members>Account</members>
+        <name>CustomObject</name>
     </types>
     <types>
-        <members>CommerceAdmin</members>
-        <name>PermissionSet</name>
+        <members>Account.AllAccounts</members>
+        <members>Account.MyAccounts</members>
+        <members>Account.NewLastWeek</members>
+        <members>Account.NewThisWeek</members>
+        <members>Account.PlatinumandGoldSLACustomers</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Account.New_Account</members>
+        <name>WebLink</name>
     </types>
     <version>55.0</version>
 </Package>
