@@ -4,5 +4,9 @@
         <members>Global-Global Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>NewEvent</members>
+        <name>QuickAction</name>
+    </types>
     <version>55.0</version>
 </Package>
