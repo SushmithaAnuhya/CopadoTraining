@@ -241,14 +241,14 @@
         <trackHistory>false</trackHistory>
     </fields>
     <listViews>
-        <fullName>All_ServiceContracts</fullName>
+        <fullName>All_Calls_for_Resources</fullName>
         <columns>CONTRACT.NAME</columns>
-        <columns>CONTRACT.APPROVALSTATUS</columns>
         <columns>CONTRACT.STARTDATE</columns>
         <columns>CONTRACT.ENDDATE</columns>
+        <columns>CONTRACT.APPROVALSTATUS</columns>
         <columns>CONTRACT.STATUS</columns>
-        <filterScope>Everything</filterScope>
-        <label>All Service Contracts</label>
+        <filterScope>Mine</filterScope>
+        <label>All Calls for Resources</label>
     </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>CONTRACT.NAME</customTabListAdditionalFields>
