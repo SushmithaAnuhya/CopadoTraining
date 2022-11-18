@@ -5,6 +5,11 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>ServiceContract-en_US</members>
+        <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+        <members>ServiceContract.All_Calls_for_Resources</members>
         <members>ServiceContract.All_ServiceContracts</members>
         <name>ListView</name>
     </types>
