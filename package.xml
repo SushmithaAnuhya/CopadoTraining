@@ -1,51 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>ServiceContract.AccountId</members>
-        <members>ServiceContract.ActivationDate</members>
-        <members>ServiceContract.AdditionalDiscount</members>
-        <members>ServiceContract.ApprovalStatus</members>
-        <members>ServiceContract.BillingAddress</members>
-        <members>ServiceContract.BillingGeocodeAccuracy</members>
-        <members>ServiceContract.ContactId</members>
-        <members>ServiceContract.ContractNumber</members>
-        <members>ServiceContract.Description</members>
-        <members>ServiceContract.Discount</members>
-        <members>ServiceContract.EndDate</members>
-        <members>ServiceContract.GrandTotal</members>
-        <members>ServiceContract.LineItemCount</members>
-        <members>ServiceContract.Name</members>
-        <members>ServiceContract.OwnerId</members>
-        <members>ServiceContract.ParentServiceContractId</members>
-        <members>ServiceContract.Pricebook2Id</members>
-        <members>ServiceContract.RootServiceContractId</members>
-        <members>ServiceContract.ShippingAddress</members>
-        <members>ServiceContract.ShippingGeocodeAccuracy</members>
-        <members>ServiceContract.ShippingHandling</members>
-        <members>ServiceContract.SpecialTerms</members>
-        <members>ServiceContract.StartDate</members>
-        <members>ServiceContract.Status</members>
-        <members>ServiceContract.Subtotal</members>
-        <members>ServiceContract.Tax</members>
-        <members>ServiceContract.Term</members>
-        <members>ServiceContract.TotalPrice</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>ServiceContract</members>
+        <members>Case</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>ServiceContract-en_US</members>
-        <name>CustomObjectTranslation</name>
-    </types>
-    <types>
-        <members>standard-ServiceContract</members>
-        <name>CustomTab</name>
-    </types>
-    <types>
-        <members>ServiceContract.All_Calls_for_Resources</members>
-        <name>ListView</name>
+        <members>Admin cloned</members>
+        <name>Profile</name>
     </types>
     <version>56.0</version>
 </Package>
