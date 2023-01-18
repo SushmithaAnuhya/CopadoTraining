@@ -8,7 +8,7 @@ public class AAAConflict{
 
         
 
-        for(Integer i = 0; i<11; i++){
+        for(Integer i = 0; i<10; i++){
 
             List<User> myList = [SELECT Id FROM User ORDER BY LastName ASC LIMIT 1];
 

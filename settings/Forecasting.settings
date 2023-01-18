@@ -3,7 +3,29 @@
     <defaultToPersonalCurrency>false</defaultToPersonalCurrency>
     <enableForecasts>false</enableForecasts>
     <forecastingCategoryMappings>
+        <forecastingItemCategoryApiName>mostlikelyonly</forecastingItemCategoryApiName>
+        <weightedSourceCategories>
+            <sourceCategoryApiName>most likely</sourceCategoryApiName>
+            <weight>1.0</weight>
+        </weightedSourceCategories>
+    </forecastingCategoryMappings>
+    <forecastingCategoryMappings>
         <forecastingItemCategoryApiName>commitonly</forecastingItemCategoryApiName>
+        <weightedSourceCategories>
+            <sourceCategoryApiName>commit</sourceCategoryApiName>
+            <weight>1.0</weight>
+        </weightedSourceCategories>
+    </forecastingCategoryMappings>
+    <forecastingCategoryMappings>
+        <forecastingItemCategoryApiName>mostlikelyforecast</forecastingItemCategoryApiName>
+        <weightedSourceCategories>
+            <sourceCategoryApiName>most likely</sourceCategoryApiName>
+            <weight>1.0</weight>
+        </weightedSourceCategories>
+        <weightedSourceCategories>
+            <sourceCategoryApiName>closed</sourceCategoryApiName>
+            <weight>1.0</weight>
+        </weightedSourceCategories>
         <weightedSourceCategories>
             <sourceCategoryApiName>commit</sourceCategoryApiName>
             <weight>1.0</weight>
@@ -19,11 +41,15 @@
     <forecastingCategoryMappings>
         <forecastingItemCategoryApiName>openpipeline</forecastingItemCategoryApiName>
         <weightedSourceCategories>
-            <sourceCategoryApiName>pipeline</sourceCategoryApiName>
+            <sourceCategoryApiName>most likely</sourceCategoryApiName>
             <weight>1.0</weight>
         </weightedSourceCategories>
         <weightedSourceCategories>
             <sourceCategoryApiName>commit</sourceCategoryApiName>
+            <weight>1.0</weight>
+        </weightedSourceCategories>
+        <weightedSourceCategories>
+            <sourceCategoryApiName>pipeline</sourceCategoryApiName>
             <weight>1.0</weight>
         </weightedSourceCategories>
         <weightedSourceCategories>
@@ -41,11 +67,15 @@
     <forecastingCategoryMappings>
         <forecastingItemCategoryApiName>bestcaseforecast</forecastingItemCategoryApiName>
         <weightedSourceCategories>
-            <sourceCategoryApiName>closed</sourceCategoryApiName>
+            <sourceCategoryApiName>most likely</sourceCategoryApiName>
             <weight>1.0</weight>
         </weightedSourceCategories>
         <weightedSourceCategories>
             <sourceCategoryApiName>commit</sourceCategoryApiName>
+            <weight>1.0</weight>
+        </weightedSourceCategories>
+        <weightedSourceCategories>
+            <sourceCategoryApiName>closed</sourceCategoryApiName>
             <weight>1.0</weight>
         </weightedSourceCategories>
         <weightedSourceCategories>
@@ -82,8 +112,10 @@
         <active>true</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -236,8 +268,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -277,15 +317,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -438,8 +482,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -479,15 +531,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -644,8 +700,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -686,15 +750,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -847,8 +915,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -888,15 +964,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -1053,8 +1133,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1095,15 +1183,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -1256,8 +1348,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1297,15 +1397,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -1462,8 +1566,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1504,15 +1616,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -1665,8 +1781,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1706,15 +1830,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -1871,8 +1999,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1913,15 +2049,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -2074,8 +2214,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2115,15 +2263,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -2280,8 +2432,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2322,15 +2482,19 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
         <active>false</active>
         <displayedCategoryApiNames>closedonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>commitonly</displayedCategoryApiNames>
+        <displayedCategoryApiNames>mostlikelyonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>bestcaseonly</displayedCategoryApiNames>
         <displayedCategoryApiNames>pipelineonly</displayedCategoryApiNames>
+        <forecastedCategoryApiNames>mostlikelyonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>commitonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>closedonly</forecastedCategoryApiNames>
         <forecastedCategoryApiNames>pipelineonly</forecastedCategoryApiNames>
@@ -2483,8 +2647,16 @@
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>00N5g00000TKYxW</field>
+            <label>Partner Commit</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>00N5g00000V7KPW</field>
             <label>Tracking Number</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2524,7 +2696,9 @@
             <field>00N5g00000V7KPT</field>
             <field>00N5g00000V7KPU</field>
             <field>00N5g00000V7KPV</field>
+            <field>00N5g00000TKYxW</field>
             <field>00N5g00000V7KPW</field>
+            <field>PARTNER.NAME</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <globalAdjustmentsSettings>
