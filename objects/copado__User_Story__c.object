@@ -6194,6 +6194,17 @@
         <label>Work Manager Relations</label>
     </fieldSets>
     <fields>
+        <fullName>Jira_Key__c</fullName>
+        <externalId>false</externalId>
+        <label>Jira Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>copado__Acceptance_Criteria_Status__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>
@@ -7760,6 +7771,40 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>copadoconnect__Connect_log__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Connect log</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>copadoconnect__External_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <externalId>true</externalId>
+        <label>External ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>copadoconnect__Last_Synced_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Synced Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
     </fields>
     <label>User Story</label>
     <listViews>
@@ -9634,7 +9679,7 @@ IMAGE(&quot;/img/samples/color_yellow.gif&quot;, &quot;white&quot;, 15,
     </validationRules>
     <validationRules>
         <fullName>copado__CredentialsMustBelongToTheEnvironment</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>NOT ( ISBLANK(copado__Environment__c) ) &amp;&amp;
 NOT ( ISBLANK(copado__Org_Credential__c) ) &amp;&amp;
 copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</errorConditionFormula>
@@ -9642,7 +9687,7 @@ copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</erro
     </validationRules>
     <validationRules>
         <fullName>copado__Promote_User_Story_Apex_validation</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>If User Story has apex code, validate that the minimum code coverage has been met.</description>
         <errorConditionFormula>AND(
   copado__Has_Apex_Code__c = true,
@@ -9673,7 +9718,7 @@ copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</erro
     </validationRules>
     <validationRules>
         <fullName>copado__User_Story_Progress_Range_Validation</fullName>
-        <active>true</active>
+        <active>false</active>
         <description>If User Story has Progress%, it should be in a valid range of 0 to 100.</description>
         <errorConditionFormula>NOT(ISNULL( copado__Progress__c )) &amp;&amp; (copado__Progress__c &lt; 0 || copado__Progress__c &gt; 1)</errorConditionFormula>
         <errorMessage>Enter a value between 0 to 100 to specify the Progress in percentage.</errorMessage>
