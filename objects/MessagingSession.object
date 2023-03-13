@@ -123,11 +123,6 @@
         <fullName>ChannelType</fullName>
     </fields>
     <fields>
-        <fullName>ConversationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>EndTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
