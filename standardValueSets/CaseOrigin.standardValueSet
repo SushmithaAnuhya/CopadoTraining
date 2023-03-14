@@ -16,4 +16,19 @@
         <default>false</default>
         <label>Web</label>
     </standardValue>
+    <standardValue>
+        <fullName>Testa</fullName>
+        <default>false</default>
+        <label>Testa</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Testb</fullName>
+        <default>false</default>
+        <label>Testb</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Testc</fullName>
+        <default>false</default>
+        <label>Testc</label>
+    </standardValue>
 </StandardValueSet>
