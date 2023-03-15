@@ -209,6 +209,16 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>WorkOrderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WorkOrderLineItemId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>WorkPlanExecutionOrder</fullName>
     </fields>
     <fields>

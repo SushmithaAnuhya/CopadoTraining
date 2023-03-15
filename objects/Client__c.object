@@ -176,35 +176,6 @@
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
-    <fields>
-        <fullName>test3__c</fullName>
-        <externalId>false</externalId>
-        <label>test3</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>no</fullName>
-                    <default>false</default>
-                    <label>no</label>
-                </value>
-                <value>
-                    <fullName>yes</fullName>
-                    <default>false</default>
-                    <label>yes</label>
-                </value>
-                <value>
-                    <fullName>maybe</fullName>
-                    <default>false</default>
-                    <label>maybe</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
     <label>Client</label>
     <listViews>
         <fullName>All</fullName>
@@ -216,23 +187,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Clients</pluralLabel>
-    <recordTypes>
-        <fullName>test2</fullName>
-        <active>true</active>
-        <label>test2</label>
-        <picklistValues>
-            <picklist>test3__c</picklist>
-            <values>
-                <fullName>maybe</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>no</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
