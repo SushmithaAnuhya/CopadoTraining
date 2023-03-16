@@ -31,4 +31,9 @@
         <default>false</default>
         <label>Global</label>
     </standardValue>
+    <standardValue>
+        <fullName>Newtest</fullName>
+        <default>false</default>
+        <label>Newtest</label>
+    </standardValue>
 </StandardValueSet>
