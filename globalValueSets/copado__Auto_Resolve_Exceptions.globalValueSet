@@ -30,6 +30,26 @@
         <default>false</default>
         <label>Layout</label>
     </customValue>
+    <customValue>
+        <fullName>LightningComponentBundle</fullName>
+        <default>false</default>
+        <label>LightningComponentBundle</label>
+    </customValue>
+    <customValue>
+        <fullName>ApprovalProcess</fullName>
+        <default>false</default>
+        <label>ApprovalProcess</label>
+    </customValue>
+    <customValue>
+        <fullName>GlobalValueSet</fullName>
+        <default>false</default>
+        <label>GlobalValueSet</label>
+    </customValue>
+    <customValue>
+        <fullName>FlexiPage</fullName>
+        <default>false</default>
+        <label>FlexiPage</label>
+    </customValue>
     <description>Metadata types to be excluded from the auto-resolve feature of Copado.</description>
     <masterLabel>Auto Resolve Exceptions</masterLabel>
     <sorted>false</sorted>
