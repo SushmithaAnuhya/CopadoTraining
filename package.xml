@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Case.test2caserule</members>
-        <members>Case.testcaserule</members>
-        <name>SharingOwnerRule</name>
+        <members>Case.test</members>
+        <members>Case.test2</members>
+        <name>SharingCriteriaRule</name>
     </types>
     <version>57.0</version>
 </Package>
