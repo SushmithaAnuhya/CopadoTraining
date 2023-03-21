@@ -4,9 +4,6 @@
         <fullName>test2caserule</fullName>
         <accessLevel>Read</accessLevel>
         <label>test2</label>
-        <sharedTo>
-            <allCustomerPortalUsers></allCustomerPortalUsers>
-        </sharedTo>
         <sharedFrom>
             <allCustomerPortalUsers></allCustomerPortalUsers>
         </sharedFrom>
@@ -15,9 +12,6 @@
         <fullName>testcaserule</fullName>
         <accessLevel>Read</accessLevel>
         <label>test</label>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
         <sharedFrom>
             <allInternalUsers></allInternalUsers>
         </sharedFrom>
