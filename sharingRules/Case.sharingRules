@@ -15,14 +15,25 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingOwnerRules>
-        <fullName>testcaserule</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>test</label>
+        <fullName>test2caserule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>test2</label>
         <sharedTo>
-            <roleAndSubordinatesInternal>CFO</roleAndSubordinatesInternal>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
         </sharedTo>
         <sharedFrom>
-            <role>CFO</role>
+            <allCustomerPortalUsers></allCustomerPortalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>testcaserule</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>test</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
         </sharedFrom>
     </sharingOwnerRules>
 </SharingRules>

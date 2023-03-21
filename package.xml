@@ -2,9 +2,6 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>Case.test2caserule</members>
-        <name>SharingCriteriaRule</name>
-    </types>
-    <types>
         <members>Case.testcaserule</members>
         <name>SharingOwnerRule</name>
     </types>
