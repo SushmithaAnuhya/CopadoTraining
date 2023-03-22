@@ -8,7 +8,7 @@
     <enableShareBrowserSessionAndroidForAuth>false</enableShareBrowserSessionAndroidForAuth>
     <enableShareBrowserSessionIOSForAuth>false</enableShareBrowserSessionIOSForAuth>
     <logRedirections>false</logRedirections>
-    <myDomainName>copado74-dev-ed</myDomainName>
+    <myDomainName>innovative-productivity-78705</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>
