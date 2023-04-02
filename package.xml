@@ -5,11 +5,14 @@
         <name>BusinessProcess</name>
     </types>
     <types>
+        <members>Opportunity.LeadSource</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>Opportunity.Test_Recordtype</members>
         <name>RecordType</name>
     </types>
     <types>
-        <members>LeadSource</members>
         <members>LeadSource</members>
         <name>StandardValueSet</name>
     </types>
