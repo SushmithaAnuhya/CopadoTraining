@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>test</members>
-        <name>Group</name>
-    </types>
-    <types>
-        <members>Case.test</members>
-        <members>Case.test2</members>
-        <name>SharingCriteriaRule</name>
+        <members>CaseOrigin</members>
+        <name>StandardValueSet</name>
     </types>
     <version>57.0</version>
 </Package>
