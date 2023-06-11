@@ -17186,10 +17186,6 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Client__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Organization__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
