@@ -6419,10 +6419,6 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Client__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Organization__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
