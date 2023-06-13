@@ -17,5 +17,25 @@
         <name>Organization__c</name>
         <relationshipLabel><!-- Clients --></relationshipLabel>
     </fields>
+    <fields>
+        <label><!-- test3 --></label>
+        <name>test3__c</name>
+        <picklistValues>
+            <masterLabel>maybe</masterLabel>
+            <translation><!-- maybe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>no</masterLabel>
+            <translation><!-- no --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>yes</masterLabel>
+            <translation><!-- yes --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- test2 --></label>
+        <name>test2</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>
