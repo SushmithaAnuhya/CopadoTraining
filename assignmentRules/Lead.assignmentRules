@@ -29,9 +29,9 @@
             <assignedTo>testuser@copa2.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
-                <field>Lead.AnnualRevenue</field>
+                <field>Lead.LeadSource</field>
                 <operation>equals</operation>
-                <value>30000</value>
+                <value>Web</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
