@@ -4305,6 +4305,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Employee__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>EngagementChannelType</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -4711,6 +4720,10 @@
         <recordType>Task.Test</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>Employee__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Interviewer__c</tab>
         <visibility>DefaultOn</visibility>
@@ -5198,19 +5211,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ArchiveArticles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>AssignPermissionSets</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>AssignTopics</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>AssignUserToSkill</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -5414,10 +5419,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>EditTranslation</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>EmailMass</name>
     </userPermissions>
     <userPermissions>
@@ -5435,6 +5436,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ExportReport</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>FieldServiceAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -5718,23 +5723,11 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>Packaging2PromoteVersion</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>PrivacyDataAccess</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>PublishArticles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>PublishPackaging</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>PublishTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -5779,10 +5772,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SolutionImport</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SubmitForTranslation</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -5866,10 +5855,6 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
-        <name>ViewArchivedArticles</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
         <name>ViewDataAssessment</name>
     </userPermissions>
     <userPermissions>
@@ -5883,10 +5868,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewDeveloperName</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>ViewDraftArticles</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
