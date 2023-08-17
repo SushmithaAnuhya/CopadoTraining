@@ -19291,10 +19291,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>Interviewer__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Organization__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
