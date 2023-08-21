@@ -19287,10 +19287,6 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
-        <tab>Client__c</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>Interviewer__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
