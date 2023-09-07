@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>AZ</fullName>
-        <default>true</default>
-        <label>AZ</label>
+        <fullName>ABC</fullName>
+        <default>false</default>
+        <label>ABC</label>
+    </customValue>
+    <customValue>
+        <fullName>AF</fullName>
+        <default>false</default>
+        <label>AF</label>
     </customValue>
     <customValue>
         <fullName>AS</fullName>
@@ -11,9 +16,14 @@
         <label>AS</label>
     </customValue>
     <customValue>
-        <fullName>AF</fullName>
+        <fullName>AZ</fullName>
+        <default>true</default>
+        <label>AZ</label>
+    </customValue>
+    <customValue>
+        <fullName>JIK</fullName>
         <default>false</default>
-        <label>AF</label>
+        <label>JIK</label>
     </customValue>
     <customValue>
         <fullName>new</fullName>
