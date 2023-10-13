@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>TestEnv</members>
-        <name>RemoteSiteSetting</name>
+        <members>standard__LightningSales</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Account_test</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Custom%3A Sales Profile</members>
+        <name>Profile</name>
     </types>
     <version>58.0</version>
 </Package>
