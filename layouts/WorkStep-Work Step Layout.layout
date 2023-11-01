@@ -12,6 +12,10 @@
                 <field>Name</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>WorkOrderId</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>ActionDefinition</field>
             </layoutItems>
@@ -28,6 +32,10 @@
             <layoutItems>
                 <behavior>Required</behavior>
                 <field>WorkPlanId</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>WorkOrderLineItemId</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
