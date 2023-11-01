@@ -200,6 +200,10 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
         <fullName>Location</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -210,11 +214,6 @@
     </fields>
     <fields>
         <fullName>Phone</fullName>
-    </fields>
-    <fields>
-        <fullName>ServiceAppointmentId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
     </fields>
     <fields>
         <fullName>ShowAs</fullName>
@@ -333,6 +332,383 @@
         </filters>
         <label>Today&apos;s Agenda</label>
     </listViews>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>B_SH_Event</fullName>
+        <active>true</active>
+        <label>B&amp;SH Event</label>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Topics_Discussed__c</picklist>
+            <values>
+                <fullName>10Q</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3Dimensions 2D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3Dimensions 3D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AORN guidelines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APC Discussion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adiana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affirm Prone Biopsy System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Akrus Chair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima CT%2FNG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima HBV quant</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Diagnostic_Lab_Event</fullName>
+        <active>false</active>
+        <label>Diagnostic Lab Event</label>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Topics_Discussed__c</picklist>
+            <values>
+                <fullName>10Q</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3Dimensions 2D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3Dimensions 3D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AORN guidelines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APC Discussion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adiana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affirm Prone Biopsy System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Akrus Chair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima CT%2FNG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima HBV quant</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Diagnostic_Perinatal_Event</fullName>
+        <active>false</active>
+        <label>Diagnostic Perinatal Event</label>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Topics_Discussed__c</picklist>
+            <values>
+                <fullName>10Q</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3Dimensions 2D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3Dimensions 3D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AORN guidelines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APC Discussion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adiana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affirm Prone Biopsy System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Akrus Chair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima CT%2FNG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima HBV quant</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Surgical_Event</fullName>
+        <active>false</active>
+        <label>Surgical Event</label>
+        <picklistValues>
+            <picklist>Subject</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send Letter%2FQuote</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Topics_Discussed__c</picklist>
+            <values>
+                <fullName>10Q</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3Dimensions 2D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3Dimensions 3D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AORN guidelines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>APC Discussion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Adiana</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Affirm Prone Biopsy System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Akrus Chair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima CT%2FNG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Aptima HBV quant</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Call</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Meeting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts/>
     <sharingModel>Private</sharingModel>
 </CustomObject>

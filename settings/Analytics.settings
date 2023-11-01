@@ -3,6 +3,7 @@
     <alwaysGenPreviews>false</alwaysGenPreviews>
     <analyticsAdoptionMetadata>false</analyticsAdoptionMetadata>
     <autoInstallApps>false</autoInstallApps>
+    <bundleCachingOptOut>false</bundleCachingOptOut>
     <canAccessAnalyticsViaAPI>false</canAccessAnalyticsViaAPI>
     <canAnnotateDashboards>false</canAnnotateDashboards>
     <canEnableSavedView>true</canEnableSavedView>
@@ -30,7 +31,7 @@
     <enableOrgCanViewThumbnailForOA>false</enableOrgCanViewThumbnailForOA>
     <enableOrgHasMobileOfflineEnabled>true</enableOrgHasMobileOfflineEnabled>
     <enableOrgHasWatchlistEnabled>true</enableOrgHasWatchlistEnabled>
-    <enableQueryLiveConnectors>true</enableQueryLiveConnectors>
+    <enableQueryLiveConnectors>false</enableQueryLiveConnectors>
     <enableRemoveFooterForRepDisplay>false</enableRemoveFooterForRepDisplay>
     <enableRemoveFooterFromRepExp>false</enableRemoveFooterFromRepExp>
     <enableReportHideXlsExportPref>false</enableReportHideXlsExportPref>
@@ -53,6 +54,7 @@
     <enableWaveSharingInheritance>false</enableWaveSharingInheritance>
     <enableWaveSqlCFIndexing>false</enableWaveSqlCFIndexing>
     <enableWaveTrendedDatasetCleanup>false</enableWaveTrendedDatasetCleanup>
+    <isDiscoveryOptimizationEnabled>false</isDiscoveryOptimizationEnabled>
     <isHighVolumePushbackEnabled>false</isHighVolumePushbackEnabled>
     <maxHoursAppInProgress>48</maxHoursAppInProgress>
     <recipeDirectDataPref>true</recipeDirectDataPref>

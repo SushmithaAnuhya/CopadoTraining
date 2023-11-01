@@ -39,18 +39,6 @@
                 <behavior>Edit</behavior>
                 <field>AnnualRevenue</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Premier_Customer__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Tax_Id__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>test_picklist__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -280,6 +268,11 @@
             <sortOrder>16</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
+            <actionName>SendEmail</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>17</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
             <actionName>JigsawSearch</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>18</sortOrder>
@@ -329,11 +322,6 @@
             <actionType>ProductivityAction</actionType>
             <sortOrder>27</sortOrder>
         </platformActionListItems>
-        <platformActionListItems>
-            <actionName>SendEmail</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>17</sortOrder>
-        </platformActionListItems>
     </platformActionList>
     <quickActionList>
         <quickActionListItems>
@@ -376,13 +364,6 @@
             <quickActionName>SendEmail</quickActionName>
         </quickActionListItems>
     </quickActionList>
-    <relatedContent>
-        <relatedContentItems>
-            <layoutItem>
-                <component>runtime_sales_social:socialPanel</component>
-            </layoutItem>
-        </relatedContentItems>
-    </relatedContent>
     <relatedLists>
         <fields>FULL_NAME</fields>
         <fields>CONTACT.TITLE</fields>

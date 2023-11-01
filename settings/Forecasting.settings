@@ -220,28 +220,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -277,12 +285,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -427,28 +437,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -484,12 +502,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -638,28 +658,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -696,12 +724,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -846,28 +876,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -903,12 +941,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1057,28 +1097,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1115,12 +1163,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1265,28 +1315,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1322,12 +1380,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1476,28 +1536,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1534,12 +1602,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1684,28 +1754,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1741,12 +1819,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -1895,28 +1975,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -1953,12 +2041,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2103,28 +2193,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2160,12 +2258,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2314,28 +2414,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2372,12 +2480,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <forecastingTypeSettings>
@@ -2522,28 +2632,36 @@
             <label>Last Modified Date</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU4</field>
+            <field>00Nf400000RPIcH</field>
             <label>Current Generator(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU5</field>
+            <field>00Nf400000RPIcI</field>
             <label>Delivery/Installation Status</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU6</field>
+            <field>00Nf400000RPIcJ</field>
             <label>Main Competitor(s)</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU7</field>
+            <field>00Nf400000RPIcK</field>
             <label>Order Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000aM4lt</field>
-            <label>Partner Commit</label>
+            <field>00Nf400000RPIcL</field>
+            <label>Tracking Number</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
-            <field>00N5g00000V7KU8</field>
-            <label>Tracking Number</label>
+            <field>PARTNER.NAME</field>
+            <label>Partner Account</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <label>Last Stage Change Date</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
+            <label>Push Count</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
@@ -2579,12 +2697,14 @@
             <field>OPPORTUNITY.LAST_ACTIVITY</field>
             <field>OPPORTUNITY.CREATED_DATE</field>
             <field>OPPORTUNITY.LAST_UPDATE</field>
-            <field>00N5g00000V7KU4</field>
-            <field>00N5g00000V7KU5</field>
-            <field>00N5g00000V7KU6</field>
-            <field>00N5g00000V7KU7</field>
-            <field>00N5g00000aM4lt</field>
-            <field>00N5g00000V7KU8</field>
+            <field>00Nf400000RPIcH</field>
+            <field>00Nf400000RPIcI</field>
+            <field>00Nf400000RPIcJ</field>
+            <field>00Nf400000RPIcK</field>
+            <field>00Nf400000RPIcL</field>
+            <field>PARTNER.NAME</field>
+            <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
+            <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
     </forecastingTypeSettings>
     <globalAdjustmentsSettings>

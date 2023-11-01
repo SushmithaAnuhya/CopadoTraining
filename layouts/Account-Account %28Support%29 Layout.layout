@@ -39,10 +39,6 @@
                 <behavior>Edit</behavior>
                 <field>Website</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>test_picklist__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
@@ -207,16 +203,6 @@
             <sortOrder>3</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>NewCase</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>4</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
-            <actionName>LogACall</actionName>
-            <actionType>QuickAction</actionType>
-            <sortOrder>5</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>NewNote</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>6</sortOrder>
@@ -290,6 +276,16 @@
             <actionName>Share</actionName>
             <actionType>StandardButton</actionType>
             <sortOrder>20</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>NewCase</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>4</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>LogACall</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>5</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
             <actionName>SendEmail</actionName>
@@ -368,13 +364,6 @@
             <quickActionName>SendEmail</quickActionName>
         </quickActionListItems>
     </quickActionList>
-    <relatedContent>
-        <relatedContentItems>
-            <layoutItem>
-                <component>runtime_sales_social:socialPanel</component>
-            </layoutItem>
-        </relatedContentItems>
-    </relatedContent>
     <relatedLists>
         <fields>FULL_NAME</fields>
         <fields>CONTACT.TITLE</fields>

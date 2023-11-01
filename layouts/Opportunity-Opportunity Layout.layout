@@ -31,10 +31,6 @@
                 <behavior>Edit</behavior>
                 <field>LeadSource</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Partner_Commit__c</field>
-            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

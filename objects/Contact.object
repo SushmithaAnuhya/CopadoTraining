@@ -348,16 +348,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Customer_CN_number__c</fullName>
-        <externalId>false</externalId>
-        <label>Customer CN number</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -511,15 +501,6 @@
         <label>Birthdays This Month</label>
     </listViews>
     <listViews>
-        <fullName>BulkMessageContacts</fullName>
-        <columns>FULL_NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>CONTACT.PHONE3</columns>
-        <columns>CONTACT.LAST_ACTIVITY</columns>
-        <filterScope>Everything</filterScope>
-        <label>Bulk_SMS_Contacts</label>
-    </listViews>
-    <listViews>
         <fullName>MyContacts</fullName>
         <filterScope>Mine</filterScope>
         <label>My Contacts</label>
@@ -560,6 +541,8 @@
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE5</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTACT.PHONE6</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account.Test_Phone_1__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Account.Test_Phone_2__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
