@@ -5,6 +5,14 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Customer Community Login User</members>
+        <members>Customer Community Plus Login User</members>
+        <members>Customer Community Plus User</members>
+        <members>Customer Community User</members>
+        <members>Customer Portal Manager Custom</members>
+        <members>Customer Portal Manager Standard</members>
+        <members>Ecommerce</members>
+        <members>External Apps Login User</members>
         <members>cloned standard</members>
         <name>Profile</name>
     </types>
