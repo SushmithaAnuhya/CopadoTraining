@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CIT</fullName>
+        <default>true</default>
+        <label>CIT</label>
+    </customValue>
+    <customValue>
+        <fullName>CITF</fullName>
+        <default>false</default>
+        <label>CITF</label>
+    </customValue>
+    <customValue>
+        <fullName>SIT</fullName>
+        <default>false</default>
+        <label>SIT</label>
+    </customValue>
+    <customValue>
+        <fullName>SSIT</fullName>
+        <default>false</default>
+        <label>SSIT</label>
+    </customValue>
+    <masterLabel>Organization</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

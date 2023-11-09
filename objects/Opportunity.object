@@ -128,14 +128,11 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Test_Opps</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -143,50 +140,6 @@
         <formFactor>Small</formFactor>
         <type>Default</type>
     </actionOverrides>
-    <businessProcesses>
-        <fullName>Test sales</fullName>
-        <isActive>true</isActive>
-        <values>
-            <fullName>Closed Won</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Id%2E Decision Makers</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Needs Analysis</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Negotiation%2FReview</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>New</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Perception Analysis</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Proposal%2FPrice Quote</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Prospecting</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Qualification</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Value Proposition</fullName>
-            <default>false</default>
-        </values>
-    </businessProcesses>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
@@ -300,6 +253,15 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>New_Customer__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>New Customer</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>NextStep</fullName>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -318,6 +280,12 @@
     <fields>
         <fullName>OwnerId</fullName>
         <trackFeedHistory>true</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PartnerAccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
@@ -463,44 +431,6 @@
         </filters>
         <label>Won</label>
     </listViews>
-    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
-    <recordTypes>
-        <fullName>Test_Recordtype</fullName>
-        <active>true</active>
-        <businessProcess>Test sales</businessProcess>
-        <label>Test Recordtype</label>
-        <picklistValues>
-            <picklist>LeadSource</picklist>
-            <values>
-                <fullName>Global</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Newtest</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Other</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Partner Referral</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Phone Inquiry</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Purchased List</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
-    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>OPPORTUNITY.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>

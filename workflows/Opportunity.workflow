@@ -30,15 +30,6 @@
         </criteriaItems>
         <description>Assign the Accounts Receivable (AR) department a task to check the credit of a potential customer 15 days before the opportunity close date if the amount is greater than $50,000.</description>
         <triggerType>onCreateOrTriggeringUpdate</triggerType>
-        <workflowTimeTriggers>
-            <actions>
-                <name>Run_a_credit_check</name>
-                <type>Task</type>
-            </actions>
-            <offsetFromField>Opportunity.CloseDate</offsetFromField>
-            <timeLength>-15</timeLength>
-            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
-        </workflowTimeTriggers>
     </rules>
     <rules>
         <fullName>Set Default Opportunity Name</fullName>

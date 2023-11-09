@@ -9,14 +9,14 @@
     <enableRequireHttpsConnection>true</enableRequireHttpsConnection>
     <networkAccess/>
     <passwordPolicies>
-        <complexity>AlphaNumeric</complexity>
+        <complexity>SpecialCharacters</complexity>
         <expiration>NinetyDays</expiration>
         <historyRestriction>3</historyRestriction>
-        <lockoutInterval>FifteenMinutes</lockoutInterval>
-        <maxLoginAttempts>TenAttempts</maxLoginAttempts>
-        <minimumPasswordLength>8</minimumPasswordLength>
-        <minimumPasswordLifetime>false</minimumPasswordLifetime>
-        <obscureSecretAnswer>false</obscureSecretAnswer>
+        <lockoutInterval>ThirtyMinutes</lockoutInterval>
+        <maxLoginAttempts>ThreeAttempts</maxLoginAttempts>
+        <minimumPasswordLength>12</minimumPasswordLength>
+        <minimumPasswordLifetime>true</minimumPasswordLifetime>
+        <obscureSecretAnswer>true</obscureSecretAnswer>
         <questionRestriction>DoesNotContainPassword</questionRestriction>
     </passwordPolicies>
     <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
@@ -62,9 +62,11 @@
         <redirectBlockModeEnabled>false</redirectBlockModeEnabled>
         <redirectionWarning>true</redirectionWarning>
         <referrerPolicy>true</referrerPolicy>
+        <referrerPolicyDirective>origin-when-cross-origin</referrerPolicyDirective>
         <requireHttpOnly>false</requireHttpOnly>
         <sessionTimeout>TwoHours</sessionTimeout>
         <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
+        <skipSFAWhenMFADirectUILogin>false</skipSFAWhenMFADirectUILogin>
         <useLocalStorageForLogoutUrl>false</useLocalStorageForLogoutUrl>
     </sessionSettings>
     <singleSignOnSettings>

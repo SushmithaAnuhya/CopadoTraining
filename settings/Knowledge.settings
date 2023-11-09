@@ -13,6 +13,7 @@
     <enableChatterQuestionKBDeflection>false</enableChatterQuestionKBDeflection>
     <enableCreateEditOnArticlesTab>true</enableCreateEditOnArticlesTab>
     <enableExternalMediaContent>true</enableExternalMediaContent>
+    <enableKbStandardSharing>true</enableKbStandardSharing>
     <enableKnowledge>true</enableKnowledge>
     <enableKnowledgeAgentContribution>false</enableKnowledgeAgentContribution>
     <enableKnowledgeAnswersPromotion>false</enableKnowledgeAnswersPromotion>
@@ -20,12 +21,12 @@
     <enableKnowledgeCaseRL>false</enableKnowledgeCaseRL>
     <enableKnowledgeKeywordAutoComplete>true</enableKnowledgeKeywordAutoComplete>
     <enableKnowledgeTitleAutoComplete>true</enableKnowledgeTitleAutoComplete>
-    <enableLightningKbAutoLoadRichTextField>false</enableLightningKbAutoLoadRichTextField>
-    <enableLightningKnowledge>false</enableLightningKnowledge>
+    <enableLightningKbAutoLoadRichTextField>true</enableLightningKbAutoLoadRichTextField>
+    <enableLightningKnowledge>true</enableLightningKnowledge>
     <showArticleSummariesCustomerPortal>false</showArticleSummariesCustomerPortal>
     <showArticleSummariesInternalApp>false</showArticleSummariesInternalApp>
     <showArticleSummariesPartnerPortal>false</showArticleSummariesPartnerPortal>
-    <showValidationStatusField>false</showValidationStatusField>
+    <showValidationStatusField>true</showValidationStatusField>
     <suggestedArticles>
         <caseFields>
             <field>
