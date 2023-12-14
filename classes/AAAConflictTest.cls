@@ -8,7 +8,7 @@ public class  AAAConflictTest {
 
         
 
-        Decimal input = 10;
+        Decimal input = 11;
 
         decimal result =  AAAConflict.countPlusOne(input);
 

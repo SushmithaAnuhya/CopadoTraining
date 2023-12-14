@@ -115,6 +115,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>AAAConflictTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>AccountContactCreator</apexClass>
         <enabled>true</enabled>
     </classAccesses>
