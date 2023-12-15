@@ -153,12 +153,48 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Testrecordtype__c</fullName>
+        <externalId>false</externalId>
+        <label>Testrecordtype</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>country</valueSetName>
+        </valueSet>
+    </fields>
     <label>Employee</label>
     <nameField>
         <label>Employee Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Employees</pluralLabel>
+    <recordTypes>
+        <fullName>Testdelete</fullName>
+        <active>true</active>
+        <label>Testdelete</label>
+        <picklistValues>
+            <picklist>Testrecordtype__c</picklist>
+            <values>
+                <fullName>AF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AZ</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>JIK</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
