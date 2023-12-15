@@ -4370,6 +4370,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Testobject__c.test_picklist__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>TimeSheet.Status</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -5505,6 +5510,13 @@
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
         <recordType>Task.Test</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Testobject__c-Testobject Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Testobject__c-Testobject Layout</layout>
+        <recordType>Testobject__c.Test_Recordtype</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
@@ -6733,6 +6745,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Testobject__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>TimeSheet</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -6955,6 +6976,11 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Task.Test</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Testobject__c.Test_Recordtype</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
