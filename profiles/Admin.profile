@@ -16432,10 +16432,6 @@
         <layout>Testobject__c-Testobject Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Testobject__c-Testobject Layout</layout>
-        <recordType>Testobject__c.Test_Recordtype</recordType>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>ThreatDetectionFeedback-Threat Detection Feedback Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -19180,11 +19176,6 @@
     <recordTypeVisibilities>
         <default>true</default>
         <recordType>Opportunity.Test_Recordtype</recordType>
-        <visible>true</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>true</default>
-        <recordType>Testobject__c.Test_Recordtype</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
