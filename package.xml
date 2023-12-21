@@ -1,28 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Testobject__c.test_picklist__c</members>
+        <members>Event.Location</members>
+        <members>Task.Status</members>
         <name>CustomField</name>
-    </types>
-    <types>
-        <members>Testobject__c</members>
-        <name>CustomObject</name>
-    </types>
-    <types>
-        <members>Testobject__c-Testobject Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
-        <members>Testobject__c.All</members>
-        <name>ListView</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
-    </types>
-    <types>
-        <members>Testobject__c.Test_Recordtype</members>
-        <name>RecordType</name>
     </types>
     <version>59.0</version>
 </Package>

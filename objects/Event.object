@@ -201,7 +201,7 @@
     </fields>
     <fields>
         <fullName>Location</fullName>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
@@ -333,6 +333,6 @@
         </filters>
         <label>Today&apos;s Agenda</label>
     </listViews>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>Private</sharingModel>
 </CustomObject>
