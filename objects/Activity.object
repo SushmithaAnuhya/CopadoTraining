@@ -114,6 +114,15 @@
     </actionOverrides>
     <enableFeeds>false</enableFeeds>
     <fields>
+        <fullName>Fieldhistorytest__c</fullName>
+        <externalId>false</externalId>
+        <label>Fieldhistorytest</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>TestTask__c</fullName>
         <externalId>false</externalId>
         <label>TestTask</label>
