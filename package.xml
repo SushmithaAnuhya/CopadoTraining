@@ -13,5 +13,17 @@
         <members>Task-Task Layout</members>
         <name>Layout</name>
     </types>
+    <types>
+        <members>Admin</members>
+        <members>Admin cloned</members>
+        <members>Analytics Cloud Integration User</members>
+        <members>Analytics Cloud Security User</members>
+        <members>ContractManager</members>
+        <members>Copado Admin</members>
+        <members>Cross Org Data Proxy User</members>
+        <members>Custom%3A Support Profile</members>
+        <members>Customer Community Login User</members>
+        <name>Profile</name>
+    </types>
     <version>59.0</version>
 </Package>
