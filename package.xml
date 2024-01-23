@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>Activity.Fieldhistorytest__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
         <members>testurl</members>
         <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Event-Event Layout</members>
+        <members>Task-Task Layout</members>
+        <name>Layout</name>
     </types>
     <version>59.0</version>
 </Package>
