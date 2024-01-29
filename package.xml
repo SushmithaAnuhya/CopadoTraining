@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Activity.Fieldhistorytest__c</members>
+        <members>Activity.Type_Detail__c</members>
+        <members>Activity.Type__c</members>
+        <members>Event.Type_Detail__c</members>
+        <members>Event.Type__c</members>
+        <members>Task.Type_Detail__c</members>
+        <members>Task.Type__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>testurl</members>
-        <name>CustomLabel</name>
-    </types>
-    <types>
-        <members>Event-Event Layout</members>
-        <members>Task-Task Layout</members>
-        <name>Layout</name>
-    </types>
-    <types>
         <members>Admin</members>
-        <members>Admin cloned</members>
-        <members>Analytics Cloud Integration User</members>
-        <members>Analytics Cloud Security User</members>
-        <members>ContractManager</members>
-        <members>Copado Admin</members>
-        <members>Cross Org Data Proxy User</members>
-        <members>Custom%3A Support Profile</members>
-        <members>Customer Community Login User</members>
         <name>Profile</name>
     </types>
     <version>59.0</version>
