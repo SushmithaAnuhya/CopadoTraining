@@ -203,6 +203,11 @@
                     <label>Medicare Advantage Plans (for existing members only)</label>
                 </value>
                 <value>
+                    <fullName>Medicare Simplified</fullName>
+                    <default>false</default>
+                    <label>Medicare Simplified</label>
+                </value>
+                <value>
                     <fullName>Q&amp;A Sessions</fullName>
                     <default>false</default>
                     <label>Q&amp;A Sessions</label>
@@ -243,6 +248,11 @@
                 <controllingFieldValue>Sales seminar</controllingFieldValue>
                 <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
                 <valueName>Medicare Advantage Plans (for existing members only)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
+                <valueName>Medicare Simplified</valueName>
             </valueSettings>
             <valueSettings>
                 <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
