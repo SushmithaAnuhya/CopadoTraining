@@ -141,6 +141,146 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Type_Detail__c</fullName>
+        <externalId>false</externalId>
+        <label>Type Detail</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Blue Medicare RX</fullName>
+                    <default>false</default>
+                    <label>Blue Medicare RX</label>
+                </value>
+                <value>
+                    <fullName>Combined</fullName>
+                    <default>false</default>
+                    <label>Combined</label>
+                </value>
+                <value>
+                    <fullName>Demystifying Medicare</fullName>
+                    <default>false</default>
+                    <label>Demystifying Medicare</label>
+                </value>
+                <value>
+                    <fullName>Dental Blue 65</fullName>
+                    <default>false</default>
+                    <label>Dental Blue 65</label>
+                </value>
+                <value>
+                    <fullName>GeoBlue</fullName>
+                    <default>false</default>
+                    <label>GeoBlue</label>
+                </value>
+                <value>
+                    <fullName>MAPD</fullName>
+                    <default>false</default>
+                    <label>MAPD</label>
+                </value>
+                <value>
+                    <fullName>Medex</fullName>
+                    <default>false</default>
+                    <label>Medex</label>
+                </value>
+                <value>
+                    <fullName>Medex/PDP</fullName>
+                    <default>false</default>
+                    <label>Medex/PDP</label>
+                </value>
+                <value>
+                    <fullName>Medicare &amp; HPO for Caregivers</fullName>
+                    <default>false</default>
+                    <label>Medicare &amp; HPO for Caregivers</label>
+                </value>
+                <value>
+                    <fullName>Medicare Advantage Plans (for existing members only)</fullName>
+                    <default>false</default>
+                    <label>Medicare Advantage Plans (for existing members only)</label>
+                </value>
+                <value>
+                    <fullName>Q&amp;A Sessions</fullName>
+                    <default>false</default>
+                    <label>Q&amp;A Sessions</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <valueName>Blue Medicare RX</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
+                <valueName>Combined</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <valueName>Demystifying Medicare</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
+                <valueName>Dental Blue 65</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <valueName>GeoBlue</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <valueName>Medex</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
+                <valueName>Medex/PDP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar</controllingFieldValue>
+                <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
+                <valueName>Medicare Advantage Plans (for existing members only)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
+                <valueName>MAPD</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
+                <valueName>Medicare &amp; HPO for Caregivers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Sales seminar webinar</controllingFieldValue>
+                <valueName>Q&amp;A Sessions</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales seminar</fullName>
+                    <default>false</default>
+                    <label>Sales seminar</label>
+                </value>
+                <value>
+                    <fullName>Sales seminar webinar</fullName>
+                    <default>false</default>
+                    <label>Sales seminar webinar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <listViews>
         <fullName>AllActivities</fullName>
         <filterScope>Team</filterScope>
