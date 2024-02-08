@@ -40,9 +40,6 @@
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
-            <tab>Organization__c</tab>
-        </mappings>
-        <mappings>
             <tab>Testobject__c</tab>
         </mappings>
         <mappings>
