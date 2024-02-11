@@ -157,6 +157,7 @@
     <dashboardType>SpecifiedUser</dashboardType>
     <description>Key metrics on partner sales performance.</description>
     <isGridLayout>true</isGridLayout>
+    <owner>autoproc@00d5g00000fmjgjeav</owner>
     <runningUser>testuser@copa2.com</runningUser>
     <textColor>#000000</textColor>
     <title>Channel Sales</title>

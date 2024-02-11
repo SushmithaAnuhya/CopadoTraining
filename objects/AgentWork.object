@@ -54,6 +54,9 @@
         <fullName>HandleTime</fullName>
     </fields>
     <fields>
+        <fullName>HasNotification</fullName>
+    </fields>
+    <fields>
         <fullName>IsAutoAcceptEnabled</fullName>
     </fields>
     <fields>
