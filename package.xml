@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Activity.Type_Detail__c</members>
-        <members>Activity.Type__c</members>
-        <members>Event.Type_Detail__c</members>
-        <members>Event.Type__c</members>
-        <members>Task.Type_Detail__c</members>
-        <members>Task.Type__c</members>
-        <name>CustomField</name>
+        <members>Staticresourcetest</members>
+        <name>StaticResource</name>
     </types>
-    <version>59.0</version>
+    <version>60.0</version>
 </Package>
