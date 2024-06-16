@@ -63,6 +63,9 @@
         <fullName>IsConference</fullName>
     </fields>
     <fields>
+        <fullName>IsFallback</fullName>
+    </fields>
+    <fields>
         <fullName>IsFlagSupervisorOnly</fullName>
     </fields>
     <fields>

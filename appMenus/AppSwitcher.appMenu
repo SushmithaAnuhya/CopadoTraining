@@ -97,7 +97,7 @@
         <type>Network</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__Commerce</name>
+        <name>standard__FlowsApp</name>
         <type>CustomApplication</type>
     </appMenuItems>
 </AppMenu>

@@ -348,6 +348,10 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>ContactSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
         <fullName>Customer_CN_number__c</fullName>
         <externalId>false</externalId>
         <label>Customer CN number</label>
