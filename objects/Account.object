@@ -239,7 +239,6 @@
     </fields>
     <fields>
         <fullName>Active__c</fullName>
-        <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -280,7 +279,6 @@
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
-        <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -393,7 +391,6 @@
     <fields>
         <fullName>Premier_Customer__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Premier Customer</label>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Checkbox</type>
@@ -405,7 +402,6 @@
     </fields>
     <fields>
         <fullName>SLAExpirationDate__c</fullName>
-        <externalId>false</externalId>
         <label>SLA Expiration Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -423,7 +419,6 @@
     </fields>
     <fields>
         <fullName>SLA__c</fullName>
-        <externalId>false</externalId>
         <label>SLA</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -498,7 +493,6 @@
     </fields>
     <fields>
         <fullName>UpsellOpportunity__c</fullName>
-        <externalId>false</externalId>
         <label>Upsell Opportunity</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -534,7 +528,6 @@
     </fields>
     <fields>
         <fullName>testpiclist__c</fullName>
-        <externalId>false</externalId>
         <label>testpiclist</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>

@@ -185,7 +185,6 @@
     </fields>
     <fields>
         <fullName>DeliveryInstallationStatus__c</fullName>
-        <externalId>false</externalId>
         <label>Delivery/Installation Status</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -255,7 +254,6 @@
     <fields>
         <fullName>New_Customer__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>New Customer</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
@@ -292,7 +290,6 @@
     <fields>
         <fullName>Partner_Commit__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>Partner Commit</label>
         <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>

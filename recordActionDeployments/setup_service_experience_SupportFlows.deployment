@@ -28,6 +28,7 @@
         </channelItems>
         <isAutopopEnabled>false</isAutopopEnabled>
     </channelConfigurations>
+    <hasComponents>false</hasComponents>
     <hasGuidedActions>true</hasGuidedActions>
     <hasOmniscripts>false</hasOmniscripts>
     <hasRecommendations>false</hasRecommendations>
