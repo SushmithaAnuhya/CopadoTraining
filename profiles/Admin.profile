@@ -20379,6 +20379,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>FreezeUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>GiveRecognitionBadge</name>
     </userPermissions>
     <userPermissions>
@@ -20459,6 +20463,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ManageCustomDomains</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageCustomPermissions</name>
     </userPermissions>
     <userPermissions>
@@ -20476,6 +20484,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageDataIntegrations</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageDataMaskPolicies</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -20532,6 +20544,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageMobile</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageMobileAppSecurity</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -20640,6 +20656,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ModifyMetadata</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>MonitorLoginHistory</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -20756,6 +20776,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>TransferAnyLead</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseFulfillmentAPIs</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
