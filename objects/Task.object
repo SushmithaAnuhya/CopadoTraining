@@ -71,6 +71,20 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>LaunchFlowForManualTask</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>NewTask</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -480,6 +494,68 @@
             </values>
             <values>
                 <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_Detail__c</picklist>
+            <values>
+                <fullName>Blue Medicare RX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Combined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demystifying Medicare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dental Blue 65</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GeoBlue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MAPD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medex</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medex%2FPDP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medicare %26 HPO for Caregivers</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medicare Advantage Plans %28for existing members only%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medicare Simplified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Q%26A Sessions</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type__c</picklist>
+            <values>
+                <fullName>Sales seminar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales seminar webinar</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

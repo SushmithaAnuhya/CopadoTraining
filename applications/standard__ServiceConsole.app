@@ -163,6 +163,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <isServiceCloudConsole>true</isServiceCloudConsole>
     <preferences>
         <enableCustomizeMyTabs>false</enableCustomizeMyTabs>
@@ -182,9 +183,13 @@
     <tabs>standard-Lead</tabs>
     <tabs>standard-Knowledge</tabs>
     <tabs>Organization__c</tabs>
+    <tabs>Testobject__c</tabs>
     <workspaceConfig>
         <mappings>
             <tab>Organization__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Testobject__c</tab>
         </mappings>
         <mappings>
             <tab>standard-Account</tab>

@@ -165,7 +165,6 @@
     </fields>
     <fields>
         <fullName>Organization__c</fullName>
-        <externalId>false</externalId>
         <label>Organization</label>
         <referenceTo>Organization__c</referenceTo>
         <relationshipLabel>Clients</relationshipLabel>

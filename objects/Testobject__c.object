@@ -155,7 +155,6 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>test_picklist__c</fullName>
-        <externalId>false</externalId>
         <label>test picklist</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -193,7 +192,27 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Testobjects</pluralLabel>
-    <searchLayouts />
+    <recordTypes>
+        <fullName>Test_Recordtype</fullName>
+        <active>true</active>
+        <label>Test Recordtype</label>
+        <picklistValues>
+            <picklist>test_picklist__c</picklist>
+            <values>
+                <fullName>d</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>e</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>k</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

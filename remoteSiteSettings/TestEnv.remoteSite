@@ -3,5 +3,5 @@
     <description>testing</description>
     <disableProtocolSecurity>false</disableProtocolSecurity>
     <isActive>true</isActive>
-    <url>{!Environment.TestEnv}</url>
+    <url>https://directv360--ds02--sflabs-cms-ct.vf.force.com</url>
 </RemoteSiteSetting>

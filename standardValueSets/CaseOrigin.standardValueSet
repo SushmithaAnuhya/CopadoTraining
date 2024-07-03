@@ -17,18 +17,18 @@
         <label>Web</label>
     </standardValue>
     <standardValue>
-        <fullName>Testa</fullName>
+        <fullName>Test1</fullName>
         <default>false</default>
-        <label>Testa</label>
+        <label>Test1</label>
     </standardValue>
     <standardValue>
-        <fullName>Testb</fullName>
+        <fullName>Test2</fullName>
         <default>false</default>
-        <label>Testb</label>
+        <label>Test2</label>
     </standardValue>
     <standardValue>
-        <fullName>Testc</fullName>
+        <fullName>Test3</fullName>
         <default>false</default>
-        <label>Testc</label>
+        <label>Test3</label>
     </standardValue>
 </StandardValueSet>

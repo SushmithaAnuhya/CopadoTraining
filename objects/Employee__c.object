@@ -155,7 +155,6 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Testrecordtype__c</fullName>
-        <externalId>false</externalId>
         <label>Testrecordtype</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
@@ -166,6 +165,11 @@
         </valueSet>
     </fields>
     <label>Employee</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <nameField>
         <label>Employee Name</label>
         <type>Text</type>
@@ -195,7 +199,7 @@
             </values>
         </picklistValues>
     </recordTypes>
-    <searchLayouts />
+    <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

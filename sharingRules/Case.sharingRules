@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
+        <fullName>test</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>test</label>
+        <sharedTo>
+            <group>test</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Reason</field>
+            <operation>notEqual</operation>
+            <value>Breakdown</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
         <fullName>test2</fullName>
         <accessLevel>Edit</accessLevel>
         <label>test2</label>
@@ -14,40 +28,15 @@
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
-    <sharingCriteriaRules>
-        <fullName>test2caserule</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>test2</label>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-        <criteriaItems>
-            <field>Origin</field>
-            <operation>equals</operation>
-            <value>Email,Phone,Web,Test1,Test2,Test3</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
     <sharingOwnerRules>
-        <fullName>test2caserule</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>test2</label>
+        <fullName>test3</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>test3</label>
         <sharedTo>
             <allCustomerPortalUsers></allCustomerPortalUsers>
         </sharedTo>
         <sharedFrom>
             <allCustomerPortalUsers></allCustomerPortalUsers>
-        </sharedFrom>
-    </sharingOwnerRules>
-    <sharingOwnerRules>
-        <fullName>testcaserule</fullName>
-        <accessLevel>Read</accessLevel>
-        <label>test</label>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-        <sharedFrom>
-            <allInternalUsers></allInternalUsers>
         </sharedFrom>
     </sharingOwnerRules>
 </SharingRules>

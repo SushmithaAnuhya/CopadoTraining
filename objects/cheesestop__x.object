@@ -121,5 +121,5 @@
     <externalName>hive</externalName>
     <label>cheesestop</label>
     <pluralLabel>cheesestops</pluralLabel>
-    <searchLayouts />
+    <searchLayouts/>
 </CustomObject>

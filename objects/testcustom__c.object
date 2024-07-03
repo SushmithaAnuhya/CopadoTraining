@@ -5,10 +5,19 @@
     <fields>
         <fullName>premium__c</fullName>
         <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
         <label>premium</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>testText__c</fullName>
+        <externalId>false</externalId>
+        <label>testText</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <label>Testcustom</label>
     <visibility>Public</visibility>

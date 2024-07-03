@@ -27,10 +27,12 @@
                 <elementReference>ServiceResources</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>saveAppointment</nameSegment>
         <outputParameters>
             <assignToReference>ServiceAppointment.Id</assignToReference>
             <name>serviceAppointmentId</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <actionCalls>
         <description>Calls an invocable action to book the appointment for a guest Experience Cloud user and stores the new service appointment ID in ServiceAppointment.</description>
@@ -65,10 +67,12 @@
                 <elementReference>ServiceResources</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>saveAppointment</nameSegment>
         <outputParameters>
             <assignToReference>ServiceAppointment.Id</assignToReference>
             <name>serviceAppointmentId</name>
         </outputParameters>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <assignments>
