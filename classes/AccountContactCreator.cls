@@ -1,6 +1,6 @@
 public class AccountContactCreator {
 
-    // Method to create a new Account adding a comment
+    // Method to create a new Account
     public static void createAccount(String accountName) {
         Account newAccount = new Account();
         newAccount.Name = accountName;
