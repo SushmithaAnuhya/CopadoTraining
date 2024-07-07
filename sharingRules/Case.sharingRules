@@ -28,15 +28,4 @@
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
-    <sharingOwnerRules>
-        <fullName>test3</fullName>
-        <accessLevel>Edit</accessLevel>
-        <label>test3</label>
-        <sharedTo>
-            <allCustomerPortalUsers></allCustomerPortalUsers>
-        </sharedTo>
-        <sharedFrom>
-            <allCustomerPortalUsers></allCustomerPortalUsers>
-        </sharedFrom>
-    </sharingOwnerRules>
 </SharingRules>
