@@ -4786,6 +4786,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
+        <field>WorkOrder.PostWorkSummary</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
         <field>WorkOrder.PreWorkBriefPromptTemplate</field>
         <readable>false</readable>
     </fieldPermissions>
