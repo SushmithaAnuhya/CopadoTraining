@@ -222,6 +222,16 @@
         <fullName>TimeZone</fullName>
         <trackHistory>false</trackHistory>
     </fields>
+    <listViews>
+        <fullName>All_Locations</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Locations</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Locations</fullName>
+        <filterScope>Mine</filterScope>
+        <label>My Locations</label>
+    </listViews>
     <searchLayouts>
         <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
         <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
