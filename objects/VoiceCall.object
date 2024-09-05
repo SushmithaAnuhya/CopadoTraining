@@ -92,6 +92,9 @@
         <fullName>CallEndDateTime</fullName>
     </fields>
     <fields>
+        <fullName>CallOrigin</fullName>
+    </fields>
+    <fields>
         <fullName>CallQueuedDateTime</fullName>
     </fields>
     <fields>

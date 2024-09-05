@@ -4,7 +4,7 @@
         <fullName>Standard</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>sushmitha.copado@prod.com</assignedTo>
+            <assignedTo>sushmitha.copado@uat.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -13,12 +13,25 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>sushmitha.copado@prod.com</assignedTo>
+            <assignedTo>sushmitha.copado@uat.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
                 <operation>notEqual</operation>
                 <value>US,USA,United States,United States of America</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Test lead</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>testuser@copa1.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>Web</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
