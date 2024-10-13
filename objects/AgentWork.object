@@ -92,6 +92,12 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>PausedCapacityPercentage</fullName>
+    </fields>
+    <fields>
+        <fullName>PausedCapacityWeight</fullName>
+    </fields>
+    <fields>
         <fullName>PendingServiceRoutingId</fullName>
         <type>Lookup</type>
     </fields>
