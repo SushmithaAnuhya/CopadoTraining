@@ -6,6 +6,7 @@
         <members>Actions</members>
         <members>Activities</members>
         <members>Address</members>
+        <members>AgentforceForDevelopers</members>
         <members>Ai4m</members>
         <members>Analytics</members>
         <members>Apex</members>
@@ -99,6 +100,7 @@
         <members>PredictionBuilder</members>
         <members>Privacy</members>
         <members>Product</members>
+        <members>ProductDiscovery</members>
         <members>QuickText</members>
         <members>Quote</members>
         <members>RealTimeEvent</members>
@@ -128,5 +130,5 @@
         <members>WorkDotCom</members>
         <name>Settings</name>
     </types>
-    <version>61.0</version>
+    <version>62.0</version>
 </Package>

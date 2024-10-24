@@ -26,6 +26,7 @@
         <enableOnDemandEmailToCase>true</enableOnDemandEmailToCase>
         <enableThreadTokenInBody>true</enableThreadTokenInBody>
         <enableThreadTokenInSubject>true</enableThreadTokenInSubject>
+        <movingEmailEnabled>false</movingEmailEnabled>
         <notifyOwnerOnNewCaseEmail>false</notifyOwnerOnNewCaseEmail>
         <overEmailLimitAction>Bounce</overEmailLimitAction>
         <preQuoteSignature>false</preQuoteSignature>
