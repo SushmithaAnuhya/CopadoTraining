@@ -348,16 +348,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Customer_CN_number__c</fullName>
-        <externalId>false</externalId>
-        <label>Customer CN number</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
@@ -494,6 +484,18 @@
     <fields>
         <fullName>Title</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>country_creation__c</fullName>
+        <externalId>false</externalId>
+        <label>country creation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>country</valueSetName>
+        </valueSet>
     </fields>
     <listViews>
         <fullName>AllContacts</fullName>

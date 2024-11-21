@@ -145,7 +145,7 @@
         <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
-        <enabled>true</enabled>
+        <enabled>false</enabled>
         <name>ListEmailSend</name>
     </userPermissions>
     <userPermissions>
