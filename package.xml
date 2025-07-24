@@ -26,6 +26,7 @@
         <members>ConnectedApp</members>
         <members>Content</members>
         <members>Contract</members>
+        <members>ConversationServiceIntegration</members>
         <members>ConversationalIntelligence</members>
         <members>Currency</members>
         <members>CustomAddressField</members>
@@ -64,6 +65,8 @@
         <members>IncidentMgmt</members>
         <members>Industries</members>
         <members>IndustriesEinsteinFeature</members>
+        <members>IndustriesUnifiedInventory</members>
+        <members>InsuranceBrokerage</members>
         <members>InvocableAction</members>
         <members>Knowledge</members>
         <members>KnowledgeGeneration</members>
@@ -83,6 +86,7 @@
         <members>ObjectLinking</members>
         <members>OmniChannel</members>
         <members>OmniChannelPricing</members>
+        <members>OmniStudio</members>
         <members>Opportunity</members>
         <members>Order</members>
         <members>OrderManagement</members>
@@ -106,12 +110,14 @@
         <members>RealTimeEvent</members>
         <members>RecommendationBuilder</members>
         <members>RecordPage</members>
+        <members>ReleaseMgmt</members>
         <members>RetailExecution</members>
         <members>Sandbox</members>
         <members>SceGlobalModelOptOut</members>
         <members>Schema</members>
         <members>Search</members>
         <members>Security</members>
+        <members>ServiceAIRecommendations</members>
         <members>ServiceCloudVoice</members>
         <members>ServiceSetupAssistant</members>
         <members>Sharing</members>
@@ -130,5 +136,5 @@
         <members>WorkDotCom</members>
         <name>Settings</name>
     </types>
-    <version>62.0</version>
+    <version>64.0</version>
 </Package>

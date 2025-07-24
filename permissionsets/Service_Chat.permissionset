@@ -3,4 +3,12 @@
     <description>View and manage all routed Chat sessions.</description>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Service Routing: Chat</label>
+    <servicePresenceStatusAccesses>
+        <enabled>true</enabled>
+        <servicePresenceStatus>Busy</servicePresenceStatus>
+    </servicePresenceStatusAccesses>
+    <servicePresenceStatusAccesses>
+        <enabled>true</enabled>
+        <servicePresenceStatus>Chat_Available</servicePresenceStatus>
+    </servicePresenceStatusAccesses>
 </PermissionSet>

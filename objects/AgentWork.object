@@ -143,6 +143,10 @@
         <fullName>StatusSequence</fullName>
     </fields>
     <fields>
+        <fullName>TransferRequesterId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>UserId</fullName>
         <type>Lookup</type>
     </fields>

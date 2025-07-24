@@ -286,6 +286,11 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
+        <fullName>ReceiptOrderId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>SchedEndTime</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -313,6 +318,11 @@
     </fields>
     <fields>
         <fullName>Subject</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>TimeZone</fullName>
+        <inlineHelpText>Specifies the time zone recorded when the appointment was booked or last modified (typically this is the patient&apos;s time zone). This may differ from the time zone used in the service appointment&apos;s scheduled start and end times, which reflect the logged in user’s time zone.</inlineHelpText>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
