@@ -6169,6 +6169,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>PrmEnhancedPortalUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>RemoveDirectMessageMembers</name>
     </userPermissions>
     <userPermissions>
