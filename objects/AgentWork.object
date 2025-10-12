@@ -3,6 +3,9 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>AbandonedDateTime</fullName>
+    </fields>
+    <fields>
         <fullName>AcceptDateTime</fullName>
     </fields>
     <fields>
@@ -141,6 +144,9 @@
     </fields>
     <fields>
         <fullName>StatusSequence</fullName>
+    </fields>
+    <fields>
+        <fullName>TargetAcceptDateTime</fullName>
     </fields>
     <fields>
         <fullName>TransferRequesterId</fullName>
