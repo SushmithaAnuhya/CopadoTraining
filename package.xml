@@ -59,6 +59,7 @@
         <members>Flow</members>
         <members>Forecasting</members>
         <members>Formula</members>
+        <members>GRCIntelligenceUdd</members>
         <members>GoogleApps</members>
         <members>HerokuAppLink</members>
         <members>HighVelocitySales</members>
@@ -67,6 +68,7 @@
         <members>IncidentMgmt</members>
         <members>Industries</members>
         <members>IndustriesEinsteinFeature</members>
+        <members>IndustriesEnergyUtilitiesMultiSite</members>
         <members>IndustriesUnifiedInventory</members>
         <members>InsuranceBrokerage</members>
         <members>InvocableAction</members>
@@ -108,6 +110,7 @@
         <members>PrmCore</members>
         <members>Product</members>
         <members>ProductDiscovery</members>
+        <members>PurchaseOrderMgmt</members>
         <members>QuickText</members>
         <members>Quote</members>
         <members>RealTimeEvent</members>
@@ -115,11 +118,13 @@
         <members>RecordPage</members>
         <members>ReleaseMgmt</members>
         <members>RetailExecution</members>
+        <members>RiskMgmt</members>
         <members>Sandbox</members>
         <members>SceGlobalModelOptOut</members>
         <members>Schema</members>
         <members>Search</members>
         <members>Security</members>
+        <members>SecurityAgent</members>
         <members>SecurityHub</members>
         <members>ServiceAIRecommendations</members>
         <members>ServiceCloudVoice</members>
@@ -141,5 +146,5 @@
         <members>WorkDotCom</members>
         <name>Settings</name>
     </types>
-    <version>65.0</version>
+    <version>66.0</version>
 </Package>
