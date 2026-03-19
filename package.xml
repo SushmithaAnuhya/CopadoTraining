@@ -104,6 +104,7 @@
         <members>Picklist</members>
         <members>PlatformEncryption</members>
         <members>PlatformEvent</members>
+        <members>PlatformWebIde</members>
         <members>Portals</members>
         <members>PredictionBuilder</members>
         <members>Privacy</members>
@@ -142,6 +143,7 @@
         <members>UserInterface</members>
         <members>UserManagement</members>
         <members>Voice</members>
+        <members>WebApplication</members>
         <members>WebToX</members>
         <members>WorkDotCom</members>
         <name>Settings</name>
